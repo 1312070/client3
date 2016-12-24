@@ -197,8 +197,8 @@
                 return;
             }
             
-            var d = new Date();
-            var date = d.getYear() + 1900 + "-" + d.getMonth() + "-" + d.getDay();
+            var date = new Date();
+            date = d.getYear() + 1900 + "-" + d.getMonth() + "-" + d.getDay();
 
             $.ajax({
                 type: "POST",
