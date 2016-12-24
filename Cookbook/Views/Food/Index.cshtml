@@ -198,7 +198,7 @@
             }
             
             var date = new Date();
-            date = d.getYear() + 1900 + "-" + d.getMonth() + "-" + d.getDay();
+            date.setHours(0, 0, 0, 0);
 
             $.ajax({
                 type: "POST",
